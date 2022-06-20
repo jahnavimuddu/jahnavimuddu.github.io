@@ -94,9 +94,11 @@
     </main>
 
     <footer id="main-footer">
-      Copyright &copy; 2020
     </footer>
 
+    <script>
+      var year = new Date().getFullYear().toString();
+      document.getElementById("main-footer").innerHTML="Copyright &copy " + year;</script>
     <script src="js/main.js"></script>
   </body>
 </html>
